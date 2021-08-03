@@ -5,10 +5,6 @@ from collections import deque
 
 init()
 
-# check for request errors / General error handling
-#Attempting to find paths.... Path not found. Expanding search
-#Total runtime. Time Spent building graph. Djikstras Algo
-
 def get_link(name, direction, requests_session):
 	l = []
 
